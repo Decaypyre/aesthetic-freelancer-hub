@@ -1,4 +1,3 @@
-
 import { Instagram, Youtube, Globe, Mail } from "lucide-react";
 
 const Footer = () => {
@@ -7,9 +6,16 @@ const Footer = () => {
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid md:grid-cols-3 gap-10">
           <div>
-            <a href="/" className="text-2xl font-serif font-bold">
-              <span className="text-portfolioPrimary">Port</span>
-              <span className="text-white">folio</span>
+            <a href="/" className="flex items-center">
+              <img 
+                src="/lovable-uploads/a817a5fa-5c4a-4fdf-8439-b91c24be6479.png" 
+                alt="Portfolio Logo" 
+                className="h-10 mr-2"
+              />
+              <span className="text-2xl font-serif font-bold">
+                <span className="text-portfolioPrimary">Port</span>
+                <span className="text-white">folio</span>
+              </span>
             </a>
             <p className="mt-4 text-white/70 max-w-xs">
               Creating engaging digital experiences through creative services and solutions.

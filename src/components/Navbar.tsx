@@ -39,8 +39,15 @@ const Navbar = () => {
       )}
     >
       <nav className="max-w-7xl mx-auto flex justify-between items-center">
-        <a href="/" className="text-2xl font-serif font-bold text-portfolioText">
-          <span className="text-portfolioPrimary">Port</span>folio
+        <a href="/" className="flex items-center">
+          <img 
+            src="/lovable-uploads/a817a5fa-5c4a-4fdf-8439-b91c24be6479.png" 
+            alt="Portfolio Logo" 
+            className="h-12 mr-2"
+          />
+          <span className="text-2xl font-serif font-bold text-portfolioText">
+            <span className="text-portfolioPrimary">Port</span>folio
+          </span>
         </a>
         
         <div className="hidden md:flex items-center space-x-8">

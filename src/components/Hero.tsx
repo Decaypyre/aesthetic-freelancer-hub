@@ -39,11 +39,13 @@ const Hero = () => {
         <div className="hidden md:flex justify-center relative">
           <div className="relative w-80 h-80 lg:w-96 lg:h-96">
             <div className="absolute inset-0 rounded-full bg-gradient-to-br from-portfolioPrimary/30 to-portfolioAccent/30 animate-float" />
-            <img
-              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
-              alt="Freelancer working"
-              className="w-full h-full object-cover rounded-2xl shadow-lg"
-            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <img
+                src="/lovable-uploads/a817a5fa-5c4a-4fdf-8439-b91c24be6479.png"
+                alt="Portfolio Logo"
+                className="w-40 h-auto object-contain"
+              />
+            </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
               <p className="text-portfolioText font-medium">5+ Years Experience</p>
             </div>
