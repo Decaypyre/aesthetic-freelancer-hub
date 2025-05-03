@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -7,6 +8,9 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
+
+// Update the document title
+document.title = "Freelance Portfolio | Web Dev | UI/UX | Video Editing | Social Media";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
